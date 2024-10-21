@@ -1,8 +1,8 @@
 from tkinter import *
-
+from PIL import*
 root = Tk()
 root.title("Simple Calculator")
-
+root.iconbitmap("171352_calculator_icon.ico")
 
 # Number Entry Section
 e = Entry(root, width=32, borderwidth=3)
